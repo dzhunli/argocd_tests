@@ -9,7 +9,7 @@ spec:
     server: "https://kubernetes.default.svc"
     namespace: nginx-ingress
   sources:
-  - repoURL: https://github.com/dzhunli/agrocd_tests.git
+  - repoURL: https://github.com/dzhunli/argocd_tests.git
     targetRevision: HEAD
     path: manifests/nginx
   syncPolicy:

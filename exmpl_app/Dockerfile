@@ -1,6 +1,6 @@
 FROM golang:1.19 AS builder
 WORKDIR /app
-COPY main.go .
+COPY exmpl_app/main.go .
 RUN go mod init helloapp
 RUN go mod tidy
 RUN go build -o helloapp

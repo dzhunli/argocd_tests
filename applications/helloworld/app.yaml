@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/dzhunli/argocd_tests.git
     targetRevision: main 
-    path: applications/helloworld
+    path: manifests/helloworld
     helm:
       releaseName: helloapp
       values: |

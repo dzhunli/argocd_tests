@@ -7,7 +7,6 @@ spec:
   project: default
   source:
     repoURL: https://github.com/dzhunli/argocd_tests.git
-    targetRevision: HEAD
     path: applications/helloworld
     chart: helloapp-chart
     helm:

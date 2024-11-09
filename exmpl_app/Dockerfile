@@ -7,6 +7,6 @@ RUN go build -o helloapp
 
 FROM alpine:latest
 WORKDIR /root/
-COPY --from=builder /app/helloapp .
-CMD ["./helloapp"]
+COPY --from=builder /app/helloapp /
+CMD ["/helloapp"]
 

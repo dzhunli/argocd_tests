@@ -11,10 +11,6 @@ spec:
     path: manifests/helloworld
     helm:
       releaseName: helloapp
-      values: |
-        service:
-          type: NodePort
-          nodePort: 8089
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: argocd

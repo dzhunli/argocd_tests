@@ -24,7 +24,7 @@ docker --> please visit https://docs.docker.com/engine/install/ (you don`t need 
     docker run -d --name k3s-server --privileged --restart=unless-stopped --network=host rancher/k3s:v1.26.0-k3s1 server
 ```
 
-**THE COMMANDS BELOW NEED TO BE EXECUTED INSIDE THE CONTAINER **
+**THE COMMANDS BELOW NEED TO BE EXECUTED INSIDE THE CONTAINER**
 
 - Setup some envs 
  ```bash
@@ -67,7 +67,7 @@ echo -e  " Port: $NODE_PORT \n User: admin \n Pass: $ARGOCD_PASSWORD \n"
 *Now there are two options. 
 The first is to add manifests using the web interface or using kubectl. Below I have provided commands for the second option as I find it easier to describe here*
 
-**THE COMMANDS BELOW NEED TO BE EXECUTED INSIDE THE CONTAINER **
+**THE COMMANDS BELOW NEED TO BE EXECUTED INSIDE THE CONTAINER**
 
 
 - Connect the repository 

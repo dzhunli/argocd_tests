@@ -87,7 +87,7 @@ kubectl apply -f https://raw.githubusercontent.com/dzhunli/argocd_tests/refs/hea
 kubectl apply -f https://raw.githubusercontent.com/dzhunli/argocd_tests/refs/heads/main/apps-of-apps/app.yaml
 ```
 
-**- To check that everything went well you can execute the command below **
+**- To check that everything went well you can execute the command below**
 ```bash
 kubectl get svc --all-namespaces -o custom-columns="NAMESPACE:.metadata.namespace,NAME:.metadata.name,TYPE:.spec.type,PORT(S):.spec.ports[*].port,SELECTOR:.spec.selector"
 ```
